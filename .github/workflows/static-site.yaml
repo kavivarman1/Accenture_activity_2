@@ -42,7 +42,7 @@ jobs:
         run: linkchecker ./docs/index.html || true
 
   stage-4-build-preview:
-    name: 4️⃣ Build Preview (Optional)
+    name: 4️⃣ Build Preview
     runs-on: ubuntu-latest
     needs: stage-3-check-links
     steps:
